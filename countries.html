@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<!-- Add your site or application content here -->
+    <!-- Fixed navbar -->
+        <div class="navbar navbar-custom navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle nav-btn-custom" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand logo" href="/"><i class="fa fa-paper-plane-o fa-2x"></i> Poleteli</a>
+              
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav nav-justified">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#about"> О нас</a></li>
+
+                <!-- drop tours -->
+                  <li class="dropdown">
+                  <a href="#tours" class="dropdown-toggle" data-toggle="dropdown">Туры <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                      <li><a href="tours.html">Выбрать тур</a></li>
+                      <li class="divider"></li>
+                      <li><a href="reviewq.html">Отзывы</a></li>
+                    </ul>
+                  </li>
+
+                <!-- drop countries -->
+                  <li class="dropdown">
+                    <a href="# countries" class="dropdown-toggle" data-toggle="dropdown">Страны <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#asia">Азия</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#europa">Европа</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#america">Америка</a></li>
+                        <li class="divider"></li>
+                         <li><a href="#africa">Африка</a></li>
+                      </ul>
+                  </li>
+
+                <li><a href="contact.html">Контакты</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+
+<!-- Content -->
+    <div class="container">
+        <section class="row pad-top-2">
+
+          <!-- Aside -->
+            <aside  id="spy" class="col-sm-3  fix">
+
+            <!-- Accordion -->
+              <div class="panel-group" id="accordion">
+
+              <!-- Panel 1 -->
+                <div class="panel panel-default">
+
+                <!-- Panel heading -->
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        Азия
+                      </a>
+                    </h4>
+                  </div>
+                  <!-- End Panel heading -->
+
+                  <div id="collapseOne" class="panel-collapse collapse ">
+
+                  <!-- Panel Body -->
+                    <div class="panel-body">
+                      <div class="list-group">
+                        <a href="#mal" class="list-group-item">Малайзия</a>
+                        <a href="#kitay" class="list-group-item">Китай</a>
+                        <a href="#india" class="list-group-item">Индия</a>
+                      </div>
+                    </div>
+                  <!-- End Panel Body -->
+
+                  </div>
+                </div>
+              <!-- End Panel 1 -->
+
+              <!-- Panel 2 -->
+                <div class="panel panel-default">
+
+                <!-- Panel heading -->
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                        Европа
+                      </a>
+                    </h4>
+                  </div>
+                  <!-- End Panel heading -->
+
+                  <div id="collapseTwo" class="panel-collapse collapse ">
+
+                  <!-- Panel Body -->
+                    <div class="panel-body">
+                      <div class="list-group">
+                        <a href="#france" class="list-group-item"> Франция</a>
+                        <a href="#england" class="list-group-item">Англия</a>
+                      </div>
+                    </div>
+                  <!-- End Panel Body -->
+
+                  </div>
+                </div>
+              <!-- End Panel 2 -->
+
+              <!-- Panel 3 -->
+                <div class="panel panel-default">
+
+                <!-- Panel heading -->
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                        Америка
+                      </a>
+                    </h4>
+                  </div>
+                  <!-- End Panel heading -->
+
+                  <div id="collapseThree" class="panel-collapse collapse ">
+
+                  <!-- Panel Body -->
+                    <div class="panel-body">
+                      <div class="list-group">
+                        <a href="#usa" class="list-group-item">США</a>
+                        <a href="#mex" class="list-group-item">Мексика</a>
+                        <a href="#ven" class="list-group-item">Бразилия</a>
+                      </div>
+                    </div>
+                  <!-- End Panel Body -->
+
+                  </div>
+                </div>
+              <!-- End Panel 3 -->
+
+              <!-- Panel 4 -->
+                <div class="panel panel-default">
+
+                <!-- Panel heading -->
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                        Африка
+                      </a>
+                    </h4>
+                  </div>
+                  <!-- End Panel heading -->
+
+                  <div id="collapseFour" class="panel-collapse collapse ">
+
+                  <!-- Panel Body -->
+                    <div class="panel-body">
+                      <div class="list-group">
+                        <a href="#kenia" class="list-group-item">Кения</a>
+                        <a href="#zbv" class="list-group-item">Зимбабве</a>
+                      </div>
+                    </div>
+                  <!-- End Panel Body -->
+
+                  </div>
+                </div>
+              <!-- End Panel 4 -->
+
+              </div>
+            </aside>
+          <!-- End Aside  -->
+
+          <!-- Article -->
+            <article class="col-sm-9 col-sm-push-3 rel" data-spy="scrol" data-target="#spy">
+
+            <!-- Asia -->
+              <div  id="asia" class="well"> <h3> Азия</h3></div>
+                <!-- Panel_1 -->
+                  <div id="mal" class="panel panel-default">
+
+                  <!--Panel Heading  -->
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Panel title</h3>
+                    </div>
+                    <!-- End panel Heading -->
+
+                    <!-- Panel body -->
+                    <div class="panel-body">
+                      <img src="http://inotur.com/images/malaysia2.jpg" class="img-responsive">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem magni, consequatur voluptate nihil quidem temporibus dolores repudiandae eum est rem.
+                    </div>
+                    <!-- End Panel Body -->
+
+                  </div>
+                <!-- End Panel_1 -->
+
+                <!-- Panel_2 -->
+                  <div id="kitay" class="panel panel-default">
+
+                  <!--Panel Heading  -->
+                    <div class="panel-heading">
+                      <h3 class="panel-title"> Китай</h3>
+                    </div>
+                    <!-- End panel Heading -->
+
+                    <!-- Panel body -->
+                    <div class="panel-body">
+                      <img src="http://lh4.ggpht.com/_RqwJgCsPZZc/TCSa2y_slAI/AAAAAAAAA98/l7PFw8wHM-Y/s800/China.jpg" class="img-responsive">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem magni, consequatur voluptate nihil quidem temporibus dolores repudiandae eum est rem.
+                    </div>
+                    <!-- End Panel Body -->
+
+                  </div>
+                <!-- End Panel_2 -->
+
+                <!-- Panel_3 -->
+                  <div id="india" class="panel panel-default">
+
+                  <!--Panel Heading  -->
+                    <div class="panel-heading">
+                      <h3 class="panel-title"> Индия</h3>
+                    </div>
+                    <!-- End panel Heading -->
+
+                    <!-- Panel body -->
+                    <div class="panel-body">
+                      <img src="http://www.navigatortravel.co.uk/wp-content/uploads/2013/08/india-travel-insurance.jpeg" class="img-responsive">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem magni, consequatur voluptate nihil quidem temporibus dolores repudiandae eum est rem.
+                    </div>
+                    <!-- End Panel Body -->
+
+                  </div>
+                <!-- End Panel_3 -->
+            <!--  End Asia -->
+
+            <!-- Europa -->
+              <div id="europa"class="well"> <h3> Европа</h3></div>
+                <!-- Panel_1 -->
+                  <div id="france" class="panel panel-default">
+
+                  <!--Panel Heading  -->
+                    <div class="panel-heading">
+                      <h3 class="panel-title"> france</h3>
+                    </div>
+                    <!-- End panel Heading -->
+
+                    <!-- Panel body -->
+                    <div class="panel-body">
+                      <img src="http://www.lingoschools.com/files/images/new/landingpage/country/sprachreisen-usa.jpg" class="img-responsive">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem magni, consequatur voluptate nihil quidem temporibus dolores repudiandae eum est rem.
+                    </div>
+                    <!-- End Panel Body -->
+
+                  </div>
+                <!-- End Panel_1 -->
+
+            <!-- End Europa -->
+
+            <!-- America -->
+              <div  id="america" class="well"> <h3> Америка</h3></div>
+                <!-- Panel_1 -->
+                  <div id="usa" class="panel panel-default">
+
+                  <!--Panel Heading  -->
+                    <div class="panel-heading">
+                      <h3 class="panel-title"> USA</h3>
+                    </div>
+                    <!-- End panel Heading -->
+
+                    <!-- Panel body -->
+                    <div class="panel-body">
+                      <img src="http://www.lingoschools.com/files/images/new/landingpage/country/sprachreisen-usa.jpg" class="img-responsive">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem magni, consequatur voluptate nihil quidem temporibus dolores repudiandae eum est rem.
+                    </div>
+                    <!-- End Panel Body -->
+
+                  </div>
+                <!-- End Panel_1 -->
+
+            <!-- End America -->
+
+
+
+            </article>
+          <!-- End Article -->
+        </section>
+    </div>
+
+
+<!-- End of content -->
+
+<!-- Footer -->
+  <footer class="footer">
+    <div class="container pad-top">
+      <div class="row row-table">
+        <div class=" col-sm-4 col-table-cell col-left-border hidden-xs">
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-table-cell col-left-border wide-sm">
+          <ul class="wide-input no-style-list custom-list">
+            <li><a href="">
+              Link1
+            </a></li>
+            <li><a href="">Link2</a></li>
+            <li><a href="">Link3</a></li>
+            <li><a href="">Link4</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 col-table-cell col-left-border hidden-xs">
+          <!-- contact form -->
+          <form class="form-inline" role="form">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control wide-input" id="inputEmail3" placeholder="e-mail">
+              </div>
+            </div>
+            
+            <div class="form-group pad-top wide-input">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-warning btn-sm">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copy-r">&copy; Travel company 2014</div>
+  </footer>
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    </body>
+</html>

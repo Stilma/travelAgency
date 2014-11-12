@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<!-- Add your site or application content here -->
+    <!-- Fixed navbar -->
+        <div class="navbar navbar-custom navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle nav-btn-custom" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand logo" href="/"><i class="fa fa-paper-plane-o fa-2x"></i> Poleteli</a>
+              
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav nav-justified">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#about"> О нас</a></li>
+                <!-- drop tours -->
+                  <li class="dropdown active">
+                  <a href="#tours" class="dropdown-toggle" data-toggle="dropdown">Туры <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                      <li><a href="tours.html">Выбрать тур</a></li>
+                      <li class="divider"></li>
+                      <li><a href="review1.html">Отзывы</a></li>
+                    </ul>
+                  </li>
+
+                <!-- drop countries -->
+                <li class="dropdown">
+                  <a href="# countries" class="dropdown-toggle" data-toggle="dropdown">Страны <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Азия</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Европа</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Америка</a></li>
+                      <li class="divider"></li>
+                       <li><a href="#">Африка</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Контакты</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+
+<!-- Content -->
+    <div class="container pad-top-2">
+        <div class="row">
+          <!-- Form -->
+                <div class="col-sm-3">
+                <!-- Countries -->
+                    <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <select class="form-control">
+                        <option disabled selected>Выбор страни</option>
+                        <option value="egypt">Египет</option>
+                        <option value="kenya">Кения</option>
+                        <option value="france">Фрагнция</option>
+                        <option value="maldives">Мальдивы</option>
+                      </select>
+                    </div>
+                  
+                <!-- Dates -->
+                    <div class="form-group">
+                      <label for="detes">Даты</label>
+                      <input type="date" min="2014-07-01" max="2015-07-01" class="form-control" id="dates" placeholder="Enter date">
+                    </div>
+                <!-- People -->
+                    <div class="form-group">
+                      <label for="people">Кол-во людей</label>
+                      <input type="number" min="1" class="form-control" id="people" placeholder="Кол-во людей">
+                    </div>
+
+                <!-- Hotel -->
+                    <div class="form-group">
+                      <select class="form-control">
+                        <option disabled selected>Выбор отеля</option>
+                        <option value="egypt">5 звезд</option>
+                        <option value="kenya">4 звезд</option>
+                        <option value="france">3 звезд</option>
+                        <option value="maldives">2 звезд</option>
+                      </select>
+                    </div>
+
+                <!-- Menu -->
+                    <div class="form-group">
+                      <select class="form-control">
+                        <option disabled selected>Выбор питания</option>
+                        <option value="egypt">3 разовое</option>
+                        <option value="kenya">обед</option>
+                        <option value="france">завтрак</option>
+                        <option value="maldives">ужин</option>
+                      </select>
+                    </div>
+
+                <!--  -->
+                  <div class="form-group">
+                  <input type='submit' class="form-control btn btn-warning" id="submit" value='отправить запрос'>
+                </div>
+                </form>
+                </div>
+          <!-- End Form -->
+
+            <!-- Tour -->
+            <div class="col-sm-9">
+                <!-- Bredcrumb -->
+                <ol class="breadcrumb">
+                  <li><a href="Index.html">Главная</a></li>
+                  <li class="active">Туры</li>
+                </ol>
+              
+              <!--Panel 1-->
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h3>Египет<span class="badge yellow_bg">4100 грн.</span></h3>
+                </div>
+                <div class="panel-body">
+                  <div class="col-sm-8">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis adipisci, ullam? Unde nulla laboriosam asperiores iure corrupti, totam eaque pariatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint maiores ut deleniti molestiae velit quod!
+                        <hr>
+                        <!-- Review -->
+                        <div class="row">
+                          <div class="col-xs-3">
+                            <img class="img-circle img-responsive" src="img/users/boy1.png" alt="">
+                          </div>
+                          <div class="col-xs-9">
+                            <blockquote class="brd-clr brd3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque maiores consequuntur, nostrum iste magni laborum accusamus. Sit vitae harum asperiores.</blockquote>
+                          </div>
+                          <a class="pull-right btn btn-info btn-sm" href="review1.html"> все отзывы</a>
+                        </div>
+                  </div>
+                    <div class="col-sm-4"><img class="img-responsive img-thumbnail img-fixid-height" alt="Responsive image" src="img/countries/Egypt.jpg"></div>
+                  
+                </div>
+              </div> 
+              <!--end panel 1-->
+
+              <!--Panel 2-->
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h3>Египет<span class="badge yellow_bg">4100 грн.</span></h3>
+                </div>
+                <div class="panel-body">
+                  <div class="col-sm-8">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis adipisci, ullam? Unde nulla laboriosam asperiores iure corrupti, totam eaque pariatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint maiores ut deleniti molestiae velit quod!
+                        <hr>
+                        <!-- Review -->
+                        <div class="row">
+                          <div class="col-xs-3">
+                            <img class="img-circle img-responsive" src="img/users/boy1.png" alt="">
+                          </div>
+                          <div class="col-xs-9">
+                            <blockquote class="brd-clr brd3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque maiores consequuntur, nostrum iste magni laborum accusamus. Sit vitae harum asperiores.</blockquote>
+                          </div>
+                          <a class="pull-right btn btn-info btn-sm" href="review1.html"> все отзывы</a>
+                        </div>
+                  </div>
+                    <div class="col-sm-4"><img class="img-responsive img-thumbnail img-fixid-height" alt="Responsive image" src="img/countries/Egypt.jpg"></div>
+                  
+                </div>
+              </div> 
+              <!--end panel 2-->
+              
+              <!--Panel 3-->
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h3>Египет<span class="badge yellow_bg">4100 грн.</span></h3>
+                </div>
+                <div class="panel-body">
+                  <div class="col-sm-8">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis adipisci, ullam? Unde nulla laboriosam asperiores iure corrupti, totam eaque pariatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint maiores ut deleniti molestiae velit quod!
+                        <hr>
+                        <!-- Review -->
+                        <div class="row">
+                          <div class="col-xs-3">
+                            <img class="img-circle img-responsive" src="img/users/boy1.png" alt="">
+                          </div>
+                          <div class="col-xs-9">
+                            <blockquote class="brd-clr brd3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque maiores consequuntur, nostrum iste magni laborum accusamus. Sit vitae harum asperiores.</blockquote>
+                          </div>
+                          <a class="pull-right btn btn-info btn-sm" href="review1.html"> все отзывы</a>
+                        </div>
+                  </div>
+                    <div class="col-sm-4"><img class="img-responsive img-thumbnail img-fixid-height" alt="Responsive image" src="img/countries/Egypt.jpg"></div>
+                  
+                </div>
+              </div>
+              <!--end panel 3-->
+              
+              <!-- Pagination -->
+                <ul class="pagination">
+                  <li><a href="#">&laquo;</a></li>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">&raquo;</a></li>
+                </ul>
+              <!-- End padination -->
+              
+            <!-- End Tour -->
+        </div>
+    </div>
+
+<!-- End of content -->
+
+<!-- Footer -->
+  <footer class="footer">
+    <div class="container pad-top">
+      <div class="row row-table">
+        <div class=" col-sm-4 col-table-cell col-left-border hidden-xs">
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class=" col-xs-12 col-sm-4 col-table-cell col-left-border wide-sm">
+          <ul class="wide-input no-style-list custom-list">
+            <li><a href="">
+              Link1
+            </a></li>
+            <li><a href="">Link2</a></li>
+            <li><a href="">Link3</a></li>
+            <li><a href="">Link4</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 col-table-cell col-left-border hidden-xs">
+          <!-- contact form -->
+          <form class="form-inline" role="form">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control wide-input" id="inputEmail3" placeholder="e-mail">
+              </div>
+            </div>
+            
+            <div class="form-group pad-top wide-input">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-warning btn-sm">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copy-r">&copy; Travel company 2014</div>
+  </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
